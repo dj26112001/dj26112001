@@ -1,0 +1,32 @@
+<aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+
+                   <h1>JINX Apartment</h1>
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li>
+                            <a href="{% url 'admin_home' %}"  style="color: blue">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
+                        </li>
+
+     <li>
+                            <a href="{% url 'visitor_form' %}"  style="color: blue">
+                                <i class="fa fa-user"></i>New Visitor</a>
+                        </li>
+   <li>
+                            <a href="{% url 'manage_newvisitors' %}"  style="color: blue">
+                                <i class="fa fa-users"></i>Manage Visitors</a>
+                        </li>
+
+
+                      <li>
+                            <a href="{% url 'betweendate_report' %}"  style="color: blue">
+                                <i class="fas fa-copy"></i>Vistors B/w Dates</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </aside>
